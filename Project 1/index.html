@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <title>Project One</title>
+
+</head>
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: red;">
+        <a class="navbar-brand" href="#"> <img src="/images/logo.jpg" width="90px" height="40px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Client</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Yoga Classes</a>
+                <a class="dropdown-item" href="#">Sessions</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Routine</a>
+              </div>
+            </li>
+           
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <!--slider-->
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" style="height: 500px;" src="/images/untitled1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" style="height: 500px;" src="/images/untitled2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" style="height: 500px;" src="/images/untitled3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      <div class="container-fluid">
+        <!--tagline-->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="display-6 text-center mt-4 mb-4">Lorem ipsum dolor sit amet consectetur</h3>
+            </div>
+        </div>
+    </div>
+
+        <!--feature-->
+        <div class="row justify-content-evenly">
+        <div class="col-md-4 text-center text-primary">
+           <h1> <i class="bi bi-file-code-fill"></i></h1>
+           <h5>Build for developers</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugiat enim et.</p>
+        </div>
+        <div class="col-md-4 text-center text-danger">
+            <h1><i class="bi bi-easel-fill"></i></h1>
+            <h5>Build for developers</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugiat enim et.</p>
+        </div>
+        <div class="col-md-4 text-center text-success">
+            <h1><i class="bi bi-calendar-range-fill"></i></h1>
+            <h5>Build for developers</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugiat enim et.</p>
+        </div>
+    </div>
+
+        <!--line-->
+<hr>
+
+<!--growth-->
+<div class="row justify-content-evenly pt-2 pb-3">
+    <div class="col-md-5 pl-5 pt-2">
+        <img src="/images/growth.jpg" class="img-fluid" width="500" height="500" alt="">
+    </div>
+    <div class="col-md-5 ml-3 pt-3">
+        <h5 class="pt-3">Yoga Classes</h5>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5 class="pt-3">Morning Yoga</h5>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5 class="pt-3">Restorative yoga</h5>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5 class="pt-3">Vinyasa yoga</h5>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+    </div>
+</div>
+
+
+<!--contact-->
+<div class="row justify-content-evenly pt-2 pb-5" style="background-color: #f1f1f1;">
+    <div class="col-md-5 mt-5 ml-4">
+        <h3 class="mb-3">Contact Form</h3>
+        <form>
+            <div class="mb-3">
+              <label for="name" class="form-label"><h5>Full Name</h5></label>
+              <input type="text" class="form-control" id="name">
+               </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"><h5>Email address</h5></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"><h5>Message</h5></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+    </div>
+    <div class="col-md-5 mt-5 ml-5">
+        <h3 class="mb-4">Address</h3>
+        <p>1180 Kimberly Way, WILLSON PARK <br>
+            New York - 11596 <br>
+            <i class="bi bi-telephone-fill"></i>  : 917-772-5081
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13270.451256295484!2d67.12297325961332!3d24.9360748892264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338980b4615af%3A0xe968e4f0fd0119cd!2sUniversity%20of%20Karachi!5e0!3m2!1sen!2s!4v1668665629888!5m2!1sen!2s" style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+
+<!--FAQ-->
+
+<div class="row justify-content-evenly pt-5 pb-5">
+<div class="col-md-10">
+    <h3 class="text-center pb-4">FAQ</h3>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+
+<!--Footer-->
+
+<div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+    <div class="col-md-3 pl-5 pt-4">
+        <h5>WAKE UP ENERGIZED AND SLEEP SOUNDLY</h5>
+        <p>Whether through movement or in stillness, we have a wide range of yoga classes and audio meditations designed to help you wake up rejuvenated, focused, quiet your mind, relax, and to fall into a deep sleep in little-to-no time at all.</p>
+    </div>
+    <div class="col-md-3 pl-5 pt-4">
+        <h5>FEEL REJUVENATED AND YOUTHFUL</h5>
+        <p>The health benefits of yoga are expansive and key to longevity. Our highly-trained teachers guide your practices to enhance holistic wellness, including classes that target low back stiffness, joint mobility, strengthen bones, improve coordination, stress, neck and shoulder tension, and so much more.</p>
+    </div>
+    <div class="col-md-3 pl-5 pt-4">
+        <h5>STRENGTHEN MIND AND BODY
+        </h5>
+        <p>Yoga is a powerful tool to hone the mind and body. Dive into classes to increase flexibility, release fascia, build overall strength, and sharpen your focus so you can live a balanced life.</p>
+    </div>
+</div>
+
+<!--copyright-->
+<div class="row bg-secondary text-white text-center pt-2">
+    <div class="col-12">
+        <p> Copyright Yoga International 2022. All Rights Reserved.</p>
+    </div>
+</div>
+
+        <!--container-end-->
+
+    </div>
+
+
+</body>
+</html>
